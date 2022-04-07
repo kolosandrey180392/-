@@ -1,0 +1,66 @@
+.table {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+}
+.table thead th {
+	font-weight: bold;
+	text-align: center;
+	border: none;
+	padding: 10px 15px;
+	background: #62a1d7;
+	font-size: 14px;
+}
+.table thead tr th:first-child {
+	border-radius: 8px 0 0 8px;
+}
+.table thead tr th:last-child {
+	border-radius: 0 8px 8px 0;
+}
+.table tbody td {
+	text-align: center;
+	border: none;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.table tbody tr td:first-child {
+	border-radius: 8px 0 0 8px;
+}
+.table tbody tr td:last-child {
+	border-radius: 0 8px 8px 0;
+}
+h2 {
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: black; 
+	font-weight: bolder;
+}
+tr:hover {
+	background: #4aa983;
+}
+.table tbody tr:nth-child(1) {
+	background: #c1d4e4;
+}
+.table tbody tr:nth-child(2) {
+	background: #c1d4e4;
+}
+.table tbody tr:nth-child(3) {
+	background: #dadaec;
+}
+.table tbody tr:nth-child(4) {
+	background: #dadaec;
+}
+.table tbody tr:nth-child(5) {
+	background: #c1d4e4;
+}
+.table tbody tr:nth-child(6) {
+	background: #c1d4e4;
+}
+
+.table tbody tr:hover {
+	background: #4aa983;
+}
+.potreblenie {
+	box-sizing: border-box;
+}
